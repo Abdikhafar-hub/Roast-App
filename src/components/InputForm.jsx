@@ -15,7 +15,7 @@ const InputForm = ({ onFetchData }) => {
 
   return (
     <div className="flex flex-col items-center p-4">
-      <h1 className="text-3xl font-bold mb-4">Roaster App</h1>
+      <h1 className="text-3xl font-bold mb-4">Insta Roaster App</h1>
       <form onSubmit={handleSubmit} className="w-full max-w-md">
         <input
           type="text"
