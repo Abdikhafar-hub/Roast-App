@@ -11,7 +11,7 @@ const InputForm = ({ onFetchData }) => {
     setLoading(true);
     await onFetchData(username);
     setLoading(false);
-  };
+  };  
 
   return (
     <div className="flex flex-col items-center p-4">
@@ -43,4 +43,4 @@ export default InputForm;
 
 
 
-jsnsss
+djh
